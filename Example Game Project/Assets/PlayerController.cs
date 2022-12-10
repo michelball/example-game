@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                rb.AddForce(Vector3.up * 2500);
+                rb.AddForce(Vector3.up * 200);
                 cooldown = 3f;
             }
         }
